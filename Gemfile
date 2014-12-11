@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+source 'http://gems.github.com'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -22,8 +22,12 @@ gem 'bootstrap-sass'
 gem 'thin'
 gem 'debugger'
 
+group :development do
+  gem "debugger"
+end
+
 group :development, :test do
-	gem 'sqlite3'	
+	gem 'sqlite3'
 end
 
 group :production do
