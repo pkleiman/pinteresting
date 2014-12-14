@@ -1,5 +1,6 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 source 'http://gems.github.com'
+ruby '1.9.3'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -20,9 +21,11 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'thin'
+gem 'devise', '~> 3.4.1'
+
 
 group :development do
-  gem "debugger"
+  gem 'debugger'
 end
 
 group :development, :test do
