@@ -22,5 +22,8 @@ module Pinteresting
     
     # required for Heroku
     config.assets.initialize_on_precompile = false
+    config.generators do |g|
+        g.stylesheets  false
+    end
   end
 end
