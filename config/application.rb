@@ -21,9 +21,9 @@ module Pinteresting
     # config.i18n.default_locale = :de
     
     # required for Heroku
-    config.assets.initialize_on_precompile = false
-    config.generators do |g|
-        g.stylesheets  false
+        config.assets.initialize_on_precompile = false
+        config.generators do |g|
+            g.stylesheets  false
     end
   end
 end

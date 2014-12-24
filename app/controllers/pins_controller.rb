@@ -1,8 +1,6 @@
 class PinsController < ApplicationController
   before_action :set_pin, only: [:show, :edit, :update, :destroy]
 
-  respond_to :html
-
   def index
     @pins = Pin.all
   end
@@ -11,7 +9,7 @@ class PinsController < ApplicationController
   end
 
   def new
-    @pin = Pin.new
+    @pin = current_user.pins.build
     
   end
 
