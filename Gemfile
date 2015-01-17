@@ -22,8 +22,9 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'thin'
 gem 'devise', '~> 3.4.1'
-gem 'paperclip', github: 'thoughtbot/paperclip'
 gem 'bundler', '~> 1.7.10'
+gem 'paperclip', github: 'thoughtbot/paperclip'
+
 
 group :development do
   gem 'debugger'
